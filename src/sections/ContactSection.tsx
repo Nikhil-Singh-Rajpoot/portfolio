@@ -19,6 +19,9 @@ const ContactSection: React.FC = () => {
       [e.target.name]: e.target.value,
     });
   };
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby4lpOVY588Kk8dqqdZhUphei0FZOG9hxhJfERtr4DAgtd1BMMVwGMTi1hy4u0sJ__B/exec';
+    const form = document.forms['google-sheet'];
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

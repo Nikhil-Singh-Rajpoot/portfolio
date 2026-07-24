@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Nikhil-Singh-Rajpoot.github.io/portfolio",
   "name": "vite_react_shadcn_ts",
+  "homepage": "https://Nikhil-Singh-Rajpoot.github.io/portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

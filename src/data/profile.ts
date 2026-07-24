@@ -1,5 +1,5 @@
 import { percent } from "framer-motion";
-
+import photo from "../../public/photo.png";
 // Single source of truth for the entire portfolio
 export interface ProfileData {
   basics: {
